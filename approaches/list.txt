@@ -1,0 +1,40 @@
+APPROACHES
+│
+├─260103approach:				2026年1月3日尝试：滤波后进行反演
+│  │  260103approach.docx
+│  │  260103approach.pdf
+│  │
+│  └─fig							反演后结果
+│          map_moho_depth.png
+│          map_observe.png
+│          map_predict.png
+│          refden_residual_histogram.png
+│          regul_residual_histogram.png
+│          score_density_reference_minimum.png
+│          score_vs_regularization.png
+│
+├─260104approach:				2026年1月4日尝试：用抛物面的形态扣除月海玄武岩影响
+│  │  260104approach.docx
+│  │  260104approach.pdf
+│  │
+│  └─fig							反演后结果
+│          map_moho_depth.png
+│          map_observe.png
+│          map_predict.png
+│          refden_residual_histogram.png
+│          regul_residual_histogram.png
+│          score_density_reference_minimum.png
+│          score_vs_regularization.png
+│
+└─260105approach:				2026年1月5日尝试：用指数面的形态扣除月海玄武岩影响
+    │  260105approach.docx
+    │  260105approach.pdf
+    │
+    └─fig							反演后结果
+            map_moho_depth.png
+            map_observe.png
+            map_predict.png
+            refden_residual_histogram.png
+            regul_residual_histogram.png
+            score_density_reference_minimum.png
+            score_vs_regularization.png
