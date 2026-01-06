@@ -19,10 +19,10 @@ def plot_results(test: bool = False):
     """
     # ===== 确定数据文件路径和图片保存目录 =====
     if test:
-        pkl_file = r"result/test_run_approach.pkl"
+        pkl_file = r"E:\Moho\approaches\approach5\result\test_run_approach.pkl"
         save_dir = "test"
     else:
-        pkl_file = r"result/run_approach.pkl"
+        pkl_file = r"E:\Moho\approaches\approach5\result\run_approach.pkl"
         save_dir = "fig"
 
     # 创建保存目录（已存在则不重复创建）
