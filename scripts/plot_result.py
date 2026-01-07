@@ -7,6 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import xarray as xr
 import pygmt
+from pathlib import Path
 
 def plot_results(test: bool = False):
     """
@@ -18,12 +19,13 @@ def plot_results(test: bool = False):
             False → 使用 run_approach.pkl，图片保存到 fig/ 文件夹（默认）
     """
     # ===== 确定数据文件路径和图片保存目录 =====
+    PROJECT_ROOT = Path.cwd().parent
     if test:
-        pkl_file = r"E:\Moho\approaches\approach5\result\test_run_approach.pkl"
-        save_dir = "test"
+        pkl_file = PROJECT_ROOT/"result/test_run_approach.pkl"
+        save_dir = PROJECT_ROOT/"test"
     else:
-        pkl_file = r"E:\Moho\approaches\approach5\result\run_approach.pkl"
-        save_dir = "fig"
+        pkl_file = PROJECT_ROOT/"result/run_approach.pkl"
+        save_dir = PROJECT_ROOT/"fig"
 
     # 创建保存目录（已存在则不重复创建）
     os.makedirs(save_dir, exist_ok=True)
